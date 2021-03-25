@@ -78,6 +78,6 @@ $ INSERT INTO cars (maker, model, build_date, colour_id) VALUES('Honda', 'Pickup
 
 Run rspec 
 ``` 
-All test should pass
+All test's should pass
 ```
 
