@@ -69,6 +69,15 @@ Model VARCHAR ( 50 ) NOT NULL,
 Build_Date DATE NOT NULL, 
 Colour_ID INTEGER NOT NULL); 
 ```
+Next week in a manually input information into the test database  this information can be found below create table. 
+Inside the information once time 
 
+``` 
+$ INSERT INTO cars (maker, model, build_date, colour_id) VALUES('Honda', 'Pickup Truck', '01/10/2021', 01); 
+```
 
+Run rspec 
+``` 
+All test should pass
+```
 
