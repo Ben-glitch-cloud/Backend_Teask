@@ -4,7 +4,9 @@ require './lib/Car_list'
 class CarsList < Sinatra::Base 
 
     get '/' do 
-        "Hello World"
+        cars = Cars.new 
+        @carinfo = cars.list  
+        erb :'index'
     end  
-    
+
 end
