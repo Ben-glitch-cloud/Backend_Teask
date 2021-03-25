@@ -5,7 +5,7 @@ class CarsList < Sinatra::Base
 
     get '/' do 
         cars = Cars.new 
-        @carinfo = cars.list  
+        @carinfo = cars.show 
         erb :'index'
     end  
 
